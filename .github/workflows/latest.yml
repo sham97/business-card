@@ -10,7 +10,6 @@ on:
       - releases/*
     paths-ignore:
       - '**.md'
-
 jobs:
   node-npm-depencies-caching:
     name: Test npm (Node ${{ matrix.node-version}}, ${{ matrix.os }})
